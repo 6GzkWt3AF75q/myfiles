@@ -1,0 +1,22 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "mean stack auth app",
+  "main": "app.js",
+  "scripts": {
+    "test": "Tal",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport-jwt": "*",
+    "passport": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
