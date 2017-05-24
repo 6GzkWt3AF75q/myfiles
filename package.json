@@ -9,13 +9,15 @@
   },
   "dependencies": {
     "express":"*",
-    "mongoose":"*",
-    "bcryptjs":"*",
-    "cors": "*",
-    "jsonwebtoken": "*",
-    "body-parser": "*",
-    "passport-jwt": "*",
-    "passport": "*"
+    "mongoose":"*", // working with object mapper to with mongodb
+    "bcryptjs":"*", // instead of bcrypt
+    "cors": "*", //request from our front end even from it's' different port. accept response only if..
+    "jsonwebtoken": "*", //auth for different part
+    "body-parser": "*", //
+    "passport-jwt": "*", //
+    "passport": "*" // login stategy that uses web token
+    //after finish npm install
+    //after app.js file - main entry point server file 
   },
   "author": "",
   "license": "ISC"
